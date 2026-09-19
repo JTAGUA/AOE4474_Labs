@@ -1,6 +1,8 @@
 clc; clear;
-%% DISCLAIMER: HOW TO USE THIS CODE.
-%Go to 
+%% DISCLAIMER: Guides TO USE THIS CODE.
+%Go to https://github.com/JTAGUA/AOE4474_Labs.git and download the folder
+%The only change this code needs is to fix the paths of each folder in
+%lines 22, 110, 111 and 112
 
 %% Definition of the global variable
 D = 0.24; % [m] Diameter of the propeller
@@ -8,6 +10,7 @@ R = 287.05; % J/(kg*K)
 mu0 = 1.716 * 10^(-5); %[Pa*s]
 S = 110.4; %[K] Sutherland's Constant
 Temp_0 = 273.15; %[K] Reference Temperature
+
 %% First Part: Calculation for a fixed wind tunnel velocity
 %Plot comparing thrust coefficient for the J = 0 condition as a function of
 %Reynolds number
